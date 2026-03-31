@@ -6,7 +6,7 @@ const Cart = () => {
   return (
     <div>
       <div className='cart border border-gray-400 rounded-xl text-start space-y-5 p-5 relative hover:bg-gray-100'>
-        <p className='absolute left-95 top-2 text-center text-sm bg-amber-100 text-amber-500 p-2 rounded-3xl w-[90px]'>Best Seller</p>
+        <p className='absolute left-70 top-2 text-center text-sm bg-amber-100 text-amber-500 p-2 rounded-3xl w-[90px]'>Best Seller</p>
         <div>
           <img className='border rounded-full p-2 border-gray-300' src={writingImg} alt="" />
         </div>
