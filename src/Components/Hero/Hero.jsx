@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="flex justify-center items-center gap-10 my-24">
       <div className="hero-left space-y-5">
-        <span className="p-3 bg-[#4F39F620] flex justify-center items-center gap-1 rounded-4xl w-[300px]">
+        <span className="p-3 bg-[#4F39F620] flex justify-center items-center gap-1 rounded-4xl w-[300px] text-[#4F39F6]">
           <img className="w-4 h-auto" src={pointImg} alt="" />
           New: AI-Powered Tools Available
         </span>
