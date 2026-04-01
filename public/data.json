@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality blogs and content in seconds\nBoost productivity with advanced AI writing tools",
+    "price": 29,
+    "period": "monthly",
+    "tag": "bestseller",
+    "tagtype": "best seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "https://play-lh.googleusercontent.com/_8WsQURr1XawfcRuuJzRIwQNjLAmpOsEuqzu1KOi-PM1EhtfXFYicfsmpnaoL1FcXJk=w240-h480-rw"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access thousands of ready-made design templates\nPerfect for social media and marketing materials",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagtype": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "icon": "https://thumbs.dreamstime.com/b/icon-packaging-suitable-education-symbol-blue-eyes-style-simple-design-editable-template-vector-illustration-252394505.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Get access to high-quality photos and videos\nUse assets freely for personal and commercial projects",
+    "price": 19,
+    "period": "monthly",
+    "tag": "new",
+    "tagtype": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution required"
+    ],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Zfk0hDkuhXIRN_6-PNlCFkrIdP8D80FZQ&s"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks easily\nImprove workflow efficiency with smart tools",
+    "price": 79,
+    "period": "monthly",
+    "tag": "popular",
+    "tagtype": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7mb83JOqf5unezuAu0WzJ5963QuHIVqXEvQ&s"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes quickly\nOptimize for ATS and export easily",
+    "price": 15,
+    "period": "one-time",
+    "tag": "new",
+    "tagtype": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJVVrFTHIF4TtaPrvcyZeaVaZQ-R_fKe0Lw&s"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create engaging content for all platforms\nPlan and schedule posts with ease",
+    "price": 39,
+    "period": "monthly",
+    "tag": "bestseller",
+    "tagtype": "best seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "https://img.freepik.com/premium-vector/instagram-logo-icon_1273375-1177.jpg?semt=ais_incoming&w=740&q=80"
+  }
+]
