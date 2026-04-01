@@ -54,9 +54,9 @@ const Products = ({ tool, carts, setCarts }) => {
         </div>
         <button
           onClick={handleButton}
-          className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-3xl w-full"
+          className={`btn ${isAdded ? "bg-green-500" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"}  text-white rounded-3xl w-full`}
         >
-          {isAdded ? `Added To Cart` : `Buy Now`}
+          {isAdded ? `Added To Cart!` : `Buy Now`}
         </button>
       </div>
     </div>
