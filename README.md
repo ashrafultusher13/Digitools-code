@@ -1,16 +1,38 @@
-# React + Vite
+# 🌐 DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Name
 
-Currently, two official plugins are available:
+**DigiTools Platform**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+DigiTools Platform is a modern and user-friendly web application designed to showcase and manage premium digital tools in one place. It provides users with a clean interface to explore various tools, view their details, and understand their value through structured pricing and feature listings. The platform focuses on simplicity, responsiveness, and an engaging user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React.js
+* Tailwind CSS
+* DaisyUI
+* JavaScript (ES6+)
+* React-Toastify (NPM Package)
+* JSON (for product data)
+
+---
+
+## ✨ Features
+
+* 🔥 **Dynamic Tool Listing**
+  Displays digital tools dynamically using JSON data for easy scalability and management.
+
+* 🎨 **Modern UI Design**
+  Clean, responsive, and visually appealing interface built with Tailwind CSS and DaisyUI.
+
+* 🔔 **Interactive Notifications**
+  User-friendly toast notifications using React-Toastify for better user interaction.
+
+
+
