@@ -3,13 +3,10 @@ import React, { use, useState } from "react";
 import Box from "../Box/Box";
 import Cart from "../ui/Cart";
 
-const Digital = ({ getPromise }) => {
+const Digital = ({ getPromise, carts, setCarts }) => {
   const tools = use(getPromise);
 
   const [activeTab, setActiveTab] = useState("Products");
-
-  const [carts,setCarts] = useState([]);
- 
 
   return (
     <div className="my-32 max-w-7xl mx-auto px-6">
@@ -25,7 +22,7 @@ const Digital = ({ getPromise }) => {
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-[70px]"
+            className={`tab rounded-full w-[70px] ${activeTab === "Products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "btn text-black"}`}
             aria-label="Products"
             onClick={() => setActiveTab("Products")}
             defaultChecked
@@ -33,7 +30,7 @@ const Digital = ({ getPromise }) => {
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-[70px]"
+            className={`tab rounded-full w-[70px] ${activeTab === "Cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "btn text-black"}`}
             aria-label={`Cart(${carts.length})`}
             onClick={() => setActiveTab("Cart")}
           />
@@ -42,7 +39,9 @@ const Digital = ({ getPromise }) => {
         {}
       </div>
 
-      {activeTab === "Products" && <Box carts={carts} setCarts={setCarts} tools={tools}></Box>}
+      {activeTab === "Products" && (
+        <Box carts={carts} setCarts={setCarts} tools={tools}></Box>
+      )}
       {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
     </div>
   );

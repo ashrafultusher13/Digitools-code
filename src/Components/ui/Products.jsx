@@ -3,7 +3,8 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 const Products = ({ tool, carts, setCarts }) => {
-  const { name, description, price, period, tagtype, features, icon } = tool;
+  const { name, description, price, period, tagtype, features, icon, tag } =
+    tool;
 
   const [isAdded, setIsAdded] = useState(false);
 
@@ -19,7 +20,9 @@ const Products = ({ tool, carts, setCarts }) => {
   return (
     <div>
       <div className="cart border border-gray-400 rounded-xl text-start space-y-5 p-5 relative hover:bg-gray-100 shadow-lg">
-        <p className="absolute left-70 top-2 text-center text-sm bg-amber-100 text-amber-500 p-2 rounded-3xl w-[90px]">
+        <p
+          className={`absolute left-83 lg:left-70 top-2 text-center text-sm  ${tag === "bestseller" ? "bg-amber-100 text-amber-700" : tag === "popular" ? "text-[#9514FA] bg-base-300" : "text-green-700 bg-green-100"} p-2 rounded-3xl w-[90px]`}
+        >
           {tagtype}
         </p>
         <div>
@@ -51,7 +54,7 @@ const Products = ({ tool, carts, setCarts }) => {
         </div>
         <button
           onClick={handleButton}
-          className="btn btn-primary rounded-3xl w-full"
+          className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-3xl w-full"
         >
           {isAdded ? `Added To Cart` : `Buy Now`}
         </button>

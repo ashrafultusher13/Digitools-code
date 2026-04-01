@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-[#101727] text-white pt-28 pb-10 ">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-5 gap-15">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-15">
         <div className="space-y-3">
           <h2 className="text-3xl font-extrabold">DigiTools</h2>
           <p className="text-[#FFFFFF90]">
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="divider"></div>
-      <div className="flex justify-between text-[#FAFAFA60]">
+      <div className="flex gap-3 lg:gap-1 justify-between text-[#FAFAFA60]">
         <p>© 2026 Digitools. All rights reserved.</p>
         <div className="flex items-center gap-5">
           <p>Privacy Policy</p>
