@@ -7,6 +7,10 @@ const Cart = ({ carts, setCarts }) => {
   const handleCheckout = () => {
     setCarts([]);
   };
+  const handleDelete = (item) => {
+    const filteredArr = carts.filter((itm) => itm.id !== item.id);
+    setCarts(filteredArr);
+  };
   return (
     <div className="border border-gray-200 rounded-3xl p-10 space-y-5">
       <h2 className="text-2xl font-bold">Your Cart</h2>
@@ -17,7 +21,7 @@ const Cart = ({ carts, setCarts }) => {
           <p className="font-semibold">Your cart is empty</p>
         </div>
       ) : (
-        <div className="items-section">
+        <div className="items-section space-y-5">
           {carts.map((item) => (
             <div className="item flex justify-between items-center bg-base-200 p-5 rounded-xl">
               <div className="flex items-center gap-5">
@@ -33,7 +37,10 @@ const Cart = ({ carts, setCarts }) => {
                   <p className="text-[#627382]">${item.price}</p>
                 </div>
               </div>
-              <button className="btn text-[#FF3980] bg-transparent">
+              <button
+                onClick={() => handleDelete(item)}
+                className="btn text-[#FF3980] bg-transparent"
+              >
                 Remove
               </button>
             </div>
