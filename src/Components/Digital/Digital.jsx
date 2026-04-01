@@ -34,7 +34,7 @@ const Digital = ({ getPromise }) => {
             type="radio"
             name="my_tabs_1"
             className="tab rounded-full w-[70px]"
-            aria-label="Cart()"
+            aria-label={`Cart(${carts.length})`}
             onClick={() => setActiveTab("Cart")}
           />
         </div>

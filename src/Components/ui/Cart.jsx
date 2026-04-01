@@ -1,15 +1,22 @@
 import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
+import { toast } from "react-toastify";
 
 const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
   console.log(totalPrice);
   const handleCheckout = () => {
     setCarts([]);
+    {
+      carts.length === 0
+        ? toast.error("Your cart is empty")
+        : toast.success("Payment Successfull");
+    }
   };
   const handleDelete = (item) => {
     const filteredArr = carts.filter((itm) => itm.id !== item.id);
     setCarts(filteredArr);
+    toast.warning("Product is removed from cart");
   };
   return (
     <div className="border border-gray-200 rounded-3xl p-10 space-y-5">

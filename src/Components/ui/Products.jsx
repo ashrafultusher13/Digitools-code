@@ -1,5 +1,6 @@
 import { TiTick } from "react-icons/ti";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const Products = ({ tool, carts, setCarts }) => {
   const { name, description, price, period, tagtype, features, icon } = tool;
@@ -9,6 +10,7 @@ const Products = ({ tool, carts, setCarts }) => {
   const handleButton = () => {
     setIsAdded(true);
     setCarts([...carts, tool]);
+    toast.success("Product is added to cart")
   };
   return (
     <div>
