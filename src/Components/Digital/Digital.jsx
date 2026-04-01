@@ -21,7 +21,7 @@ const Digital = ({ getPromise }) => {
         </p>
 
         {/* name of each tab group should be unique */}
-        <div className="tabs tabs-box mx-auto justify-center bg-transparent w-[170px] border border-gray-100 rounded-full ">
+        <div className="tabs tabs-box mx-auto justify-center bg-transparent w-[180px] border border-gray-100 rounded-full ">
           <input
             type="radio"
             name="my_tabs_1"

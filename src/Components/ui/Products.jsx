@@ -9,8 +9,12 @@ const Products = ({ tool, carts, setCarts }) => {
 
   const handleButton = () => {
     setIsAdded(true);
+    if (carts.find((item) => item.id === tool.id)) {
+      toast.error("Product is already added to cart");
+      return;
+    }
     setCarts([...carts, tool]);
-    toast.success("Product is added to cart")
+    toast.success("Product is added to cart");
   };
   return (
     <div>
