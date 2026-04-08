@@ -1,38 +1,33 @@
-# 🌐 DigiTools Platform
+# DigiTools Platform
 
-## 📌 Project Name
+## Overview
+DigiTools is a platform to explore premium digital tools, featuring detailed descriptions, pricing, and a modern UI.
 
-**DigiTools Platform**
-
----
-
-## 🚀 Description
-
-DigiTools Platform is a modern and user-friendly web application designed to showcase and manage premium digital tools in one place. It provides users with a clean interface to explore various tools, view their details, and understand their value through structured pricing and feature listings. The platform focuses on simplicity, responsiveness, and an engaging user experience.
-
----
-
-## 🛠️ Technologies Used
-
-* React.js
-* Tailwind CSS
-* DaisyUI
-* JavaScript (ES6+)
-* React-Toastify (NPM Package)
-* JSON (for product data)
-
----
-
-## ✨ Features
-
-* 🔥 **Dynamic Tool Listing**
-  Displays digital tools dynamically using JSON data for easy scalability and management.
-
-* 🎨 **Modern UI Design**
-  Clean, responsive, and visually appealing interface built with Tailwind CSS and DaisyUI.
-
-* 🔔 **Interactive Notifications**
-  User-friendly toast notifications using React-Toastify for better user interaction.
+## Screenshot
+<img width="1900" height="872" alt="Screenshot 2026-04-08 170836" src="https://github.com/user-attachments/assets/8761a39c-c3fe-4ef6-9c81-11e5f334b23d" />
 
 
+## Technology Stack
+- React.js
+- Tailwind CSS & DaisyUI
+- JavaScript (ES6+)
+- React-Toastify
 
+## Main Features
+- Browse digital tools with search & filter
+- View detailed tool descriptions
+- Display pricing and subscription info
+- Responsive UI with modern design
+
+## Dependencies
+- react-icons
+- react-toastify
+- tailwindcss & daisyUI
+
+## Setup & Run Locally
+1. Clone the repo: `git clone [repo-link]`
+2. Install dependencies: `npm install`
+3. Start the app: `npm start`
+
+## Live & Other Links
+- Live Site: https://digitools-code.netlify.app/
